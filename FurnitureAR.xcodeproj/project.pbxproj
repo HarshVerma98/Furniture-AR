@@ -13,6 +13,8 @@
 		95E5AF10242CAECF00F62F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E5AF0E242CAECF00F62F39 /* Main.storyboard */; };
 		95E5AF12242CAED000F62F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E5AF11242CAED000F62F39 /* Assets.xcassets */; };
 		95E5AF15242CAED000F62F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E5AF13242CAED000F62F39 /* LaunchScreen.storyboard */; };
+		95E5AF1D242CB14300F62F39 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E5AF1C242CB14300F62F39 /* ItemCell.swift */; };
+		95E5AF1F242CB48200F62F39 /* Model.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E5AF1E242CB48200F62F39 /* Model.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		95E5AF11242CAED000F62F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95E5AF14242CAED000F62F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95E5AF16242CAED000F62F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E5AF1C242CB14300F62F39 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		95E5AF1E242CB48200F62F39 /* Model.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Model.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				95E5AF11242CAED000F62F39 /* Assets.xcassets */,
 				95E5AF13242CAED000F62F39 /* LaunchScreen.storyboard */,
 				95E5AF16242CAED000F62F39 /* Info.plist */,
+				95E5AF1C242CB14300F62F39 /* ItemCell.swift */,
+				95E5AF1E242CB48200F62F39 /* Model.scnassets */,
 			);
 			path = FurnitureAR;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95E5AF15242CAED000F62F39 /* LaunchScreen.storyboard in Resources */,
+				95E5AF1F242CB48200F62F39 /* Model.scnassets in Resources */,
 				95E5AF12242CAED000F62F39 /* Assets.xcassets in Resources */,
 				95E5AF10242CAECF00F62F39 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95E5AF1D242CB14300F62F39 /* ItemCell.swift in Sources */,
 				95E5AF0D242CAECF00F62F39 /* ViewController.swift in Sources */,
 				95E5AF09242CAECF00F62F39 /* AppDelegate.swift in Sources */,
 				95E5AF0B242CAECF00F62F39 /* SceneDelegate.swift in Sources */,
@@ -285,7 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HM3JVVUNFD;
+				DEVELOPMENT_TEAM = 7SQW9H847Q;
 				INFOPLIST_FILE = FurnitureAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HM3JVVUNFD;
+				DEVELOPMENT_TEAM = 7SQW9H847Q;
 				INFOPLIST_FILE = FurnitureAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
